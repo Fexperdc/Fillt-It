@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "FhSZsgYA679ow714FWCa2kIB833LcsYZAMB7M0C7pv2PeiDQN04mfeGnNxTZqFGWZUaVw6VzYGzg1iTdELDR8g==",
+  "success": true,
+  "projectFilePath": "C:\\Development\\Games\\Godot\\Serious Development\\Fill It Development\\Fill It\\Fill It.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\felix\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.0\\microsoft.netframework.referenceassemblies.1.0.0.nupkg.sha512",
+    "C:\\Users\\felix\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net47\\1.0.0\\microsoft.netframework.referenceassemblies.net47.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

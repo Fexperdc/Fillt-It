@@ -1,0 +1,77 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://assets/scenes/Voxel.tscn" type="PackedScene" id=1]
+[ext_resource path="res://src/entities/PickableVoxel.cs" type="Script" id=2]
+[ext_resource path="res://assets/fonts/font.tres" type="DynamicFont" id=4]
+
+[sub_resource type="SpatialMaterial" id=6]
+resource_local_to_scene = true
+albedo_color = Color( 0, 0, 0, 0 )
+emission_enabled = true
+emission = Color( 1, 1, 1, 1 )
+emission_energy = 0.0
+emission_operator = 0
+emission_on_uv2 = false
+
+[sub_resource type="SpatialMaterial" id=1]
+resource_local_to_scene = true
+resource_name = "palette"
+
+[sub_resource type="ArrayMesh" id=2]
+resource_local_to_scene = true
+surfaces/0 = {
+"aabb": AABB( -0.4, 0, -0.4, 0.8, 0.8, 0.8 ),
+"array_data": PoolByteArray( 205, 204, 204, 190, 0, 0, 0, 0, 205, 204, 204, 190, 129, 0, 0, 0, 127, 0, 0, 127, 203, 59, 0, 56, 205, 204, 204, 190, 205, 204, 76, 63, 205, 204, 204, 62, 129, 0, 0, 0, 127, 0, 0, 127, 203, 59, 0, 56, 205, 204, 204, 190, 0, 0, 0, 0, 205, 204, 204, 62, 129, 0, 0, 0, 127, 0, 0, 127, 203, 59, 0, 56, 205, 204, 204, 190, 205, 204, 76, 63, 205, 204, 204, 190, 129, 0, 0, 0, 127, 0, 0, 127, 203, 59, 0, 56, 205, 204, 204, 62, 0, 0, 0, 0, 205, 204, 204, 190, 127, 0, 0, 0, 127, 0, 0, 127, 203, 59, 0, 56, 205, 204, 204, 62, 0, 0, 0, 0, 205, 204, 204, 62, 127, 0, 0, 0, 127, 0, 0, 127, 203, 59, 0, 56, 205, 204, 204, 62, 205, 204, 76, 63, 205, 204, 204, 62, 127, 0, 0, 0, 127, 0, 0, 127, 203, 59, 0, 56, 205, 204, 204, 62, 205, 204, 76, 63, 205, 204, 204, 190, 127, 0, 0, 0, 127, 0, 0, 127, 203, 59, 0, 56, 205, 204, 204, 190, 205, 204, 76, 63, 205, 204, 204, 62, 0, 0, 127, 0, 127, 0, 0, 129, 203, 59, 0, 56, 205, 204, 204, 62, 0, 0, 0, 0, 205, 204, 204, 62, 0, 0, 127, 0, 127, 0, 0, 129, 203, 59, 0, 56, 205, 204, 204, 190, 0, 0, 0, 0, 205, 204, 204, 62, 0, 0, 127, 0, 127, 0, 0, 129, 203, 59, 0, 56, 205, 204, 204, 62, 205, 204, 76, 63, 205, 204, 204, 62, 0, 0, 127, 0, 127, 0, 0, 129, 203, 59, 0, 56, 205, 204, 204, 190, 205, 204, 76, 63, 205, 204, 204, 190, 0, 0, 129, 0, 127, 0, 0, 127, 203, 59, 0, 56, 205, 204, 204, 190, 0, 0, 0, 0, 205, 204, 204, 190, 0, 0, 129, 0, 127, 0, 0, 127, 203, 59, 0, 56, 205, 204, 204, 62, 0, 0, 0, 0, 205, 204, 204, 190, 0, 0, 129, 0, 127, 0, 0, 127, 203, 59, 0, 56, 205, 204, 204, 62, 205, 204, 76, 63, 205, 204, 204, 190, 0, 0, 129, 0, 127, 0, 0, 127, 203, 59, 0, 56, 205, 204, 204, 62, 0, 0, 0, 0, 205, 204, 204, 62, 0, 129, 0, 0, 127, 0, 0, 127, 203, 59, 0, 56, 205, 204, 204, 190, 0, 0, 0, 0, 205, 204, 204, 190, 0, 129, 0, 0, 127, 0, 0, 127, 203, 59, 0, 56, 205, 204, 204, 190, 0, 0, 0, 0, 205, 204, 204, 62, 0, 129, 0, 0, 127, 0, 0, 127, 203, 59, 0, 56, 205, 204, 204, 62, 0, 0, 0, 0, 205, 204, 204, 190, 0, 129, 0, 0, 127, 0, 0, 127, 203, 59, 0, 56, 205, 204, 204, 62, 205, 204, 76, 63, 205, 204, 204, 62, 0, 127, 0, 0, 127, 0, 0, 127, 203, 59, 0, 56, 205, 204, 204, 190, 205, 204, 76, 63, 205, 204, 204, 62, 0, 127, 0, 0, 127, 0, 0, 127, 203, 59, 0, 56, 205, 204, 204, 190, 205, 204, 76, 63, 205, 204, 204, 190, 0, 127, 0, 0, 127, 0, 0, 127, 203, 59, 0, 56, 205, 204, 204, 62, 205, 204, 76, 63, 205, 204, 204, 190, 0, 127, 0, 0, 127, 0, 0, 127, 203, 59, 0, 56 ),
+"array_index_data": PoolByteArray( 0, 0, 1, 0, 2, 0, 0, 0, 3, 0, 1, 0, 4, 0, 5, 0, 6, 0, 4, 0, 6, 0, 7, 0, 8, 0, 9, 0, 10, 0, 8, 0, 11, 0, 9, 0, 12, 0, 13, 0, 14, 0, 12, 0, 14, 0, 15, 0, 16, 0, 17, 0, 18, 0, 16, 0, 19, 0, 17, 0, 20, 0, 21, 0, 22, 0, 20, 0, 22, 0, 23, 0 ),
+"blend_shape_data": [  ],
+"format": 97559,
+"index_count": 36,
+"material": SubResource( 1 ),
+"name": "palette",
+"primitive": 4,
+"skeleton_aabb": [  ],
+"vertex_count": 24
+}
+
+[sub_resource type="PlaneMesh" id=3]
+
+[sub_resource type="ViewportTexture" id=4]
+viewport_path = NodePath("Viewport")
+
+[sub_resource type="SpatialMaterial" id=5]
+resource_local_to_scene = true
+flags_transparent = true
+albedo_texture = SubResource( 4 )
+
+[node name="PickableVoxel" groups=[
+"pickable_voxel",
+] instance=ExtResource( 1 )]
+script = ExtResource( 2 )
+colorNumberVisible = true
+_color = Color( 0, 0, 0, 0 )
+
+[node name="MeshInstance" parent="." index="0"]
+material_override = SubResource( 6 )
+mesh = SubResource( 2 )
+
+[node name="PickPoint" type="Spatial" parent="." index="2"]
+
+[node name="Viewport" type="Viewport" parent="." index="3"]
+size = Vector2( 50, 50 )
+transparent_bg = true
+render_target_v_flip = true
+
+[node name="ColorNumberLabel" type="Label" parent="Viewport" index="0"]
+margin_left = 5.214
+margin_top = 7.565
+margin_right = 45.214
+margin_bottom = 63.565
+custom_fonts/font = ExtResource( 4 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "0"
+align = 1
+
+[node name="UIMesh" type="MeshInstance" parent="." index="4"]
+transform = Transform( 0.36681, 0, 0, 0, 1, 0, 0, 0, 0.36681, 0, 0.406196, 0 )
+mesh = SubResource( 3 )
+material/0 = SubResource( 5 )

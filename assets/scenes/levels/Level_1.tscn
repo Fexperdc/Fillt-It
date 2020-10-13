@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://assets/scenes/InteractColoredContainer.tscn" type="PackedScene" id=1]
+[ext_resource path="res://assets/scenes/Level.tscn" type="PackedScene" id=2]
+
+[node name="Level_1" instance=ExtResource( 2 )]
+
+[node name="Containers" type="Spatial" parent="." index="0"]
+
+[node name="InteractColoredContainer" parent="Containers" index="0" instance=ExtResource( 1 )]
+colorNumber = 1
+
+[node name="InteractColoredContainer2" parent="Containers" index="1" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0 )
+colorNumber = 2
+
+[node name="InteractColoredContainer3" parent="Containers" index="2" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1 )
+colorNumber = 3
+
+[node name="InteractColoredContainer4" parent="Containers" index="3" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1 )
+colorNumber = 4

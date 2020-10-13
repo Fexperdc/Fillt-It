@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/voxel_bag.obj-ecb69e6496a098409a36d829c7c6650e.mesh"
+
+[deps]
+
+files=[ "res://.import/voxel_bag.obj-ecb69e6496a098409a36d829c7c6650e.mesh" ]
+
+source_file="res://assets/models/voxel_bag.obj"
+dest_files=[ "res://.import/voxel_bag.obj-ecb69e6496a098409a36d829c7c6650e.mesh", "res://.import/voxel_bag.obj-ecb69e6496a098409a36d829c7c6650e.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

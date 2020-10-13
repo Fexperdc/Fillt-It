@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/castle.obj-0cbfffbb4bc2bef66f5291af782a373e.mesh"
+
+[deps]
+
+files=[ "res://.import/castle.obj-0cbfffbb4bc2bef66f5291af782a373e.mesh" ]
+
+source_file="res://assets/models/castle.obj"
+dest_files=[ "res://.import/castle.obj-0cbfffbb4bc2bef66f5291af782a373e.mesh", "res://.import/castle.obj-0cbfffbb4bc2bef66f5291af782a373e.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

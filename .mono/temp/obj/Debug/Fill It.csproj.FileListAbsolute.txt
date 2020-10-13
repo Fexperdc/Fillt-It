@@ -1,0 +1,6 @@
+C:\Development\Games\Godot\Serious Development\Fill It Development\Fill It\.mono\temp\bin\Debug\Fill It.dll
+C:\Development\Games\Godot\Serious Development\Fill It Development\Fill It\.mono\temp\bin\Debug\Fill It.pdb
+C:\Development\Games\Godot\Serious Development\Fill It Development\Fill It\.mono\temp\obj\Debug\Fill It.csprojAssemblyReference.cache
+C:\Development\Games\Godot\Serious Development\Fill It Development\Fill It\.mono\temp\obj\Debug\Fill It.csproj.CoreCompileInputs.cache
+C:\Development\Games\Godot\Serious Development\Fill It Development\Fill It\.mono\temp\obj\Debug\Fill It.dll
+C:\Development\Games\Godot\Serious Development\Fill It Development\Fill It\.mono\temp\obj\Debug\Fill It.pdb

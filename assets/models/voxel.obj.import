@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/voxel.obj-ac3bc61d54380c5cb6854549e1db4cad.mesh"
+
+[deps]
+
+files=[ "res://.import/voxel.obj-ac3bc61d54380c5cb6854549e1db4cad.mesh" ]
+
+source_file="res://assets/models/voxel.obj"
+dest_files=[ "res://.import/voxel.obj-ac3bc61d54380c5cb6854549e1db4cad.mesh", "res://.import/voxel.obj-ac3bc61d54380c5cb6854549e1db4cad.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

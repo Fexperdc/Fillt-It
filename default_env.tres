@@ -1,0 +1,18 @@
+[gd_resource type="Environment" load_steps=2 format=2]
+
+[sub_resource type="ProceduralSky" id=1]
+texture_size = 0
+
+[resource]
+background_mode = 3
+background_sky = SubResource( 1 )
+background_color = Color( 0.160784, 0.14902, 0.14902, 1 )
+ambient_light_energy = 0.1
+auto_exposure_scale = 0.01
+ss_reflections_depth_tolerance = 0.1
+ssao_radius = 4.32
+ssao_intensity = 2.46
+ssao_radius2 = 1.31
+ssao_intensity2 = 2.09
+ssao_bias = 0.105
+dof_blur_far_quality = 0
